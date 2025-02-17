@@ -30,4 +30,6 @@ conn.commit()
 cursor.execute("DELETE FROM students WHERE name = ?", ("John Doe",))
 conn.commit()
 
+## this is a new path
+
 
