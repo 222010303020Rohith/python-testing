@@ -39,6 +39,7 @@ def update_student_age(student_id, new_age):
     connection.commit()
     print(f"✅ Student ID {student_id} age updated to {new_age}!")
 
+
 # Function to delete a student record
 def delete_student(student_id):
     cursor.execute("DELETE FROM students WHERE student_id = ?", (student_id,))
