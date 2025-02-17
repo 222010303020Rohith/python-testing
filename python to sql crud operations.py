@@ -19,6 +19,7 @@ CREATE TABLE IF NOT EXISTS students (
 conn.commit()  # Save changes
 cursor.execute("INSERT INTO students (name, age, grade) VALUES (?, ?, ?)", 
                ("John Doe", 20, "A"))
+dewf
 conn.commit()  # Save changes
 cursor.execute("SELECT * FROM students")
 rows = cursor.fetchall()  # Fetch all rows
