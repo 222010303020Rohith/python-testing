@@ -33,3 +33,5 @@ obj = Private()
 print(obj.salary())  # Works
 #print(obj.__salary)  # Raises AttributeError
 
+## including new concepts
+
